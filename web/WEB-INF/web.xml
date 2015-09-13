@@ -13,4 +13,25 @@
         <servlet-name>myservlet</servlet-name>
         <url-pattern>/firstServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.creditease.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>calculatorServlet</servlet-name>
+        <servlet-class>com.creditease.CalculatorServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>calculatorServlet</servlet-name>
+        <url-pattern>/calculatorServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
