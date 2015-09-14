@@ -34,4 +34,14 @@
         <url-pattern>/calculatorServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>resposeBodyServlet</servlet-name>
+        <servlet-class>com.creditease.ResposeBodyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>resposeBodyServlet</servlet-name>
+        <url-pattern>/resposeBodyServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
